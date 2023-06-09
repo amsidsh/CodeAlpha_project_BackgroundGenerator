@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Gradient Background Generator</title>
+    </head>
+
+    <body id="gradient">
+        <!-- Header -->
+        <header>
+            <h1>Background Generator</h1>
+        </header>
+        <main>
+            <section>
+                <label for="color1">First color&#58;</label>
+                <input type="color" name="color1" id="color1" value="#00ff00" />
+                <label for="color2">Second color&#58;</label>
+                <input type="color" name="color2" id="color2" value="#ff0000" />
+                <select class="toDirection">
+                    <option value="to right">to right</option>
+                    <option value="to right bottom">to right bottom</option>
+                    <option value="to right top">to right top</option>
+                    <option value="to left">to left</option>
+                    <option value="to left bottom">to left bottom</option>
+                    <option value="to left top">to left top</option>
+                    <option value="to bottom">to bottom</option>
+                    <option value="to top">to top</option>
+                    <option value="radial">radial</option>
+                </select>
+                <button class="randomDirection">Random direction</button>
+            </section>
+            <section>
+                <h2>Current CSS Background</h2>
+                <h3 class="gradientGenerate"></h3>
+                <button class="random">Random both colors</button>
+                <button class="firstRandomBtn">Random only first color</button>
+                <button class="secondRandomBtn">Random only second color</button>
+            </section>
+        </main>
+        <!-- Footer -->
+        <footer>
+            <p>Made with &#x2764; &#64;SIDDHARTHGANTA</p>
+        </footer>
+
+        <script src="main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Julee&family=Suez+One&family=Bagel+Fat+One&display=swap');
+
+:root {
+    --text-color: rgba(0, 0, 0, 0.5);
+    --bg-transparent: transparent;
+    --text-align: center;
+    --text-transform: uppercase;
+    --letter-spacing: 0.5em;
+    --border-solid: solid;
+}
+
+body {
+    font-family: 'Suez One', serif;
+    color: var(--text-color);
+    text-align: var(--text-align);
+    text-transform: var(--text-transform);
+    letter-spacing: var(--letter-spacing);
+    top: 15%;
+    background-image: linear-gradient(to right, #e66465, #f6b73c);
+}
+
+h1 {
+    font: 600 3.5rem  'Bagel Fat One', cursive;
+    color: var(--text-color);
+    text-align: var(--text-align);
+    text-transform: var(--text-transform);
+    letter-spacing: var(--letter-spacing);
+    width: 100%;
+}
+
+h2 {
+    font: 600 2em  'Bagel Fat One', cursive;
+    color: var(--text-color);
+    text-align: var(--text-align);
+    text-transform: var(--text-transform);
+    width: 100%;
+}
+
+h3 {
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Julee', cursive;
+    color: var(--text-color);
+    text-align: var(--text-align);
+    text-transform: none;
+    letter-spacing: 0.01em;
+}
+
+button {
+    margin: 10px;
+    background-color: var(--bg-transparent);
+    border: var(--border-solid);
+    border-radius: 15px 50px;
+    width: 200px;
+    height: 30px;
+    opacity: 0.6;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: rgb(87, 75, 75);
+    color: aliceblue;
+    opacity: 0.4;
+}
+
+select {
+    margin: 40px;
+    width: 150px;
+    height: 30px;
+    background-color: var(--bg-transparent);
+    border-color: var(--text-color);
+    border-radius: 15px 50px;
+    text-align: var(--text-align);
+    border: var(--border-solid);
+    opacity: 0.6;
+}
+
+input {
+    background-color: var(--bg-transparent);
+    border-color: var(--bg-transparent);
+    height: 30px;
+    width: 60px;
+    opacity: 0.8;
+}
